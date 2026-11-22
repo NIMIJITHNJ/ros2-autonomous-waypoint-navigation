@@ -2,6 +2,16 @@
 
 An autonomous waypoint navigation controller developed using ROS 2 Jazzy, Python, Nav2, and Gazebo Harmonic.
 
+## Video Demonstration
+
+[Watch the autonomous navigation demonstration (v1.0.0)](https://github.com/NIMIJITHNJ/ros2-autonomous-waypoint-navigation/releases/tag/v1.0.0)
+
+The demonstration shows TurtleBot3 completing three autonomous waypoints in Gazebo using ROS 2 and Nav2.
+
+**Recorded results:** 3/3 waypoints completed, 3 goal submissions, and 38.54 seconds total navigation time.
+
+[View the system architecture](docs/architecture.md)
+
 ## Overview
 
 The project demonstrates autonomous sequential navigation of a simulated TurtleBot3 robot. A custom ROS 2 Python node manages waypoint execution, communicates with Nav2 using actions, monitors navigation feedback, and handles selected failure conditions.
