@@ -2,6 +2,22 @@
 
 An autonomous waypoint navigation controller developed using ROS 2 Jazzy, Python, Nav2, and Gazebo Harmonic.
 
+## Simulation Screenshots
+
+The screenshots below were extracted from the [v1.0.0 demonstration video](https://github.com/NIMIJITHNJ/ros2-autonomous-waypoint-navigation/releases/tag/v1.0.0).
+
+**RViz and Gazebo during autonomous navigation**
+
+![RViz and Gazebo simulation overview](docs/images/simulation_overview.png)
+
+**Nav2 map, costmap and navigation in RViz**
+
+![RViz navigation map and costmap](docs/images/rviz_navigation.png)
+
+**Completed navigation — terminal results**
+
+![Terminal output showing 3/3 completed waypoints](docs/images/navigation_results.png)
+
 ## Video Demonstration
 
 [Watch the autonomous navigation demonstration (v1.0.0)](https://github.com/NIMIJITHNJ/ros2-autonomous-waypoint-navigation/releases/tag/v1.0.0)
