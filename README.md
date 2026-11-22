@@ -98,3 +98,28 @@ This project implements a high-level autonomous waypoint controller. Nav2 provid
 ## Research Motivation
 
 This project explores autonomous task execution, AI planning integration, navigation reliability, and decision-making in robotic systems.
+
+## Optional Blue TurtleBot3 Model
+
+A customised blue TurtleBot3 model is included in `custom_models/`.
+
+To launch the simulation with this appearance:
+
+```bash
+cd ~/robot_nav_ws
+
+ros2 launch nav2_bringup tb3_simulation_launch.py \
+  headless:=False \
+  params_file:=$PWD/config/nav2_params.yaml \
+  autostart:=true \
+  robot_sdf:=$PWD/custom_models/gz_waffle_blue.sdf.xacro
+```
+
+Then launch the navigation controller in another terminal:
+
+```bash
+ros2 launch robot_nav_controller navigation.launch.py
+```
+
+The colour modification is visual only and does not change
+the robot's navigation behaviour.
